@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BUBULLA :: HOME</title>
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="./assets/vendor/bootstrap/css/bootstrap.min.css">
+    <!-- fontawesome css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Custom css -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="navbar navbar-expand-md bg-white">
+            <div class="container-xl">
+                <a class="navbar-brand" href="./index.html">
+                    <img src="./assets/images/header--logo.png" alt="logo" class="logo">
+                </a>
+                <button class="navbar-toggler border-0" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#mobileMenuDrawer" aria-controls="mobileMenuDrawer">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="offcanvas offcanvas-start bg-dark mobile--menu" tabindex="-1" id="mobileMenuDrawer"
+                    aria-labelledby="mobileMenuDrawerLabel">
+                    <div class="offcanvas-header">
+                        <img src="./assets/images/footer--logo.png" alt="logo" class="logo">
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <ul class="navbar-nav ms-md-auto mb-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="./index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./about-us.html">About us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./shop.html">Products</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./contact-us.html"> Contact us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- Header -->
+    <!-- MAIN -->
+    <main class="main home">
+        <!-- CAROUSEL -->
+        <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="carousel-item-1 carousel-bg"></div>
+                    <div class="slider--content text-white text-center">
+                        <h1 class="font--stylic stylic--heading">Organic Products</h1>
+                        <h1 class="big--heading font--secondary">Raw Meat Farm</h1>
+                        <p class="discription">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, dicta?
+                            Vel
+                            quibusdam facere a consequuntur qui autem possimus reiciendis dolorem.</p>
+                        <a href="#" class="btn--primary rounded-pill">Read More</a>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="carousel-item-2 carousel-bg"></div>
+                    <div class="slider--content text-white text-center">
+                        <h1 class="font--stylic stylic--heading">Best Offers</h1>
+                        <h1 class="big--heading font--secondary">For Restaurants</h1>
+                        <p class="discription">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, dicta?
+                            Vel
+                            quibusdam facere a consequuntur qui autem possimus reiciendis dolorem.</p>
+                        <a href="#" class="btn--primary rounded-pill">Read More</a>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="carousel-item-3 carousel-bg"></div>
+                    <div class="slider--content text-white text-center">
+                        <h1 class="font--stylic stylic--heading">Online Orders</h1>
+                        <h1 class="big--heading font--secondary">Free Delivery</h1>
+                        <p class="discription">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, dicta?
+                            Vel
+                            quibusdam facere a consequuntur qui autem possimus reiciendis dolorem.</p>
+                        <a href="#" class="btn--primary rounded-pill">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev carousel-control" type="button"
+                data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <i class="fa-solid fa-arrow-left-long"></i>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next carousel-control" type="button"
+                data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <i class="fa-solid fa-arrow-right-long"></i>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <!-- CAROUSEL -->
+
+        <!-- SERVICES -->
+        <section class="services">
+            <div class="container-xl py-5 border-bottom">
+                <div class="row pt-5">
+                    <div class="col-12 col-md-6 col-lg-4 mb-5">
+                        <div class="services--card text-center">
+                            <a href="#" class="d-inline-block">
+                                <div class="img--container">
+                                    <img src="./assets/images/services/chicken.png" alt="chicken" class="img-fluid" />
+                                </div>
+                                <h6 class="title">Chicken</h6>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 mb-5">
+                        <div class="services--card text-center">
+                            <a href="#" class="d-inline-block">
+                                <div class="img--container">
+                                    <img src="./assets/images/services/cow.png" alt="cow" class="img-fluid" />
+                                </div>
+                                <h6 class="title">Beef</h6>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 mb-5">
+                        <div class="services--card text-center">
+                            <a href="#" class="d-inline-block">
+                                <div class="img--container">
+                                    <img src="./assets/images/services/goat.png" alt="goat" class="img-fluid" />
+                                </div>
+                                <h6 class="title">Goat</h6>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 mb-5">
+                        <div class="services--card text-center">
+                            <a href="#" class="d-inline-block">
+                                <div class="img--container">
+                                    <img src="./assets/images/services/rabbit.png" alt="rabbit" class="img-fluid" />
+                                </div>
+                                <h6 class="title">Rabbit</h6>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 mb-5">
+                        <div class="services--card text-center">
+                            <a href="#" class="d-inline-block">
+                                <div class="img--container">
+                                    <img src="./assets/images/services/sheep.png" alt="sheep" class="img-fluid" />
+                                </div>
+                                <h6 class="title">Sheep</h6>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 mb-5">
+                        <div class="services--card text-center">
+                            <a href="#" class="d-inline-block">
+                                <div class="img--container">
+                                    <img src="./assets/images/services/horse.png" alt="horse" class="img-fluid" />
+                                </div>
+                                <h6 class="title">Horse</h6>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- SERVICES -->
+
+        <!-- ABOUT--INFO -->
+        <section class="py-5 about--us--info bg-white">
+            <div class="container-xl py-5">
+                <div class="row">
+                    <div class="col-12 col-md-6 mb-5 mb-md-0">
+                        <div class="left--content">
+                            <h1 class="font--stylic text--primary">about company</h1>
+                            <h1 class="section--heading">Raw Meat Production by Leading Farm</h1>
+                            <p class="fs--18 mb-4">Cras non dui id ex mattis vehicula. Nullam posuere ligula non libero
+                                mollis, non ornare sapien rutrum. Quisque vitae risus venenatis, dignissim felis id,
+                                vulputate nisl. Praesent sed felis aliquam, ullamcorper tellus.</p>
+                            <div class="mb-4 d-flex align-items-center">
+                                <i class="fa-solid fa-phone-volume icon text--primary fs--36"></i>
+                                <a class="d-inline-block ms-2 text--dark" href="#">+8068-387-01-39</a>
+                            </div>
+                            <div class="mb-4 d-flex align-items-center">
+                                <i class="fa-solid fa-file-pdf icon text--primary fs--36"></i>
+                                <a class="d-inline-block ms-2 text--dark" href="#">Download price</a>
+                            </div>
+                            <a href="#" class="btn--primary rounded-pill">Read More</a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <div class="right--content">
+                            <img src="./assets/images/about--us.jpg" alt="about" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ABOUT--INFO -->
+
+        <!-- QUALITY MONITORING -->
+        <section class="quality--monitoring">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12 col-md-4 col-lg-5 col-xl-6 d-none d-md-block left--content">
+                        <div class="full--percent flex--center">
+                            <h1 class="fw--semi--bold text-white mb-0">100%</h1>
+                            <h5 class="text-white mb-0">Proven Quality</h5>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-8 col-lg-7 col-xl-6 py-5 right--content">
+                        <div class="py-5 ps-3 ps-md-5">
+                            <h1 class="font--stylic text--primary">technologies</h1>
+                            <h1 class="section--heading mb-0">Quality monitoring</h1>
+                            <div class="row justify-content-center mt-5">
+                                <div class="col-6 col-md-4 mb-5">
+                                    <div class="text-center">
+                                        <img src="./assets/images/temprature.png" alt="temprature"
+                                            class="img-fluid mb-3">
+                                        <h4 class="fs--20 fw--semi--bold">Temperature <br> Control</h4>
+                                    </div>
+                                </div>
+                                <div class="col-6 col-md-4 mb-5">
+                                    <div class="text-center">
+                                        <img src="./assets/images/microscope.png" alt="microscope"
+                                            class="img-fluid mb-3">
+                                        <h4 class="fs--20 fw--semi--bold">Laboratory <br> Testing</h4>
+                                    </div>
+                                </div>
+                                <div class="col-6 col-md-4 mb-5">
+                                    <div class="text-center">
+                                        <img src="./assets/images/funnel.png" alt="funnel" class="img-fluid mb-3">
+                                        <h4 class="fs--20 fw--semi--bold">Antibacterial <br> Treatment</h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="fs--18 mb-4">Cras non dui id ex mattis vehicula. Nullam posuere ligula non libero
+                                mollis, non ornare sapien rutrum. Quisque vitae risus venenatis, dignissim felis id,
+                                vulputate nisl. Praesent sed felis aliquam, ullamcorper tellus.</p>
+                            <a href="#" class="btn--primary rounded-pill">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- QUALITY MONITORING -->
+    </main>
+    <!-- MAIN -->
+    <!-- FOOTER -->
+    <footer class="footer pt-5">
+        <div class="container-xl py-5">
+            <div class="row mb-5">
+                <div class="col-12 col-md-8 mx-auto text-center">
+                    <a href="./index.html" class="d-inline-block mb-4">
+                        <img src="./assets/images/footer--logo.png" alt="logo" class="logo footer--logo img-fluid">
+                    </a>
+                    <p class="text-light fs--18 mb-4">Etiam consequat sem ullamcorper, euismod metus sit amet, tristique
+                        justo. Vestibulum mattis, nisi ut faucibus commodo, risus ex commodo. Donec lacinia elementum
+                        diam. Vivamus volutpat a ligula sit amet pretium.</p>
+                    <div class="d-flex gap--20 justify-content-center">
+                        <a href="#" class="text-light fs--22">
+                            <i class="fa-brands fa-x-twitter"></i>
+                        </a>
+                        <a href="#" class="text-light fs--22">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="text-light fs--22">
+                            <i class="fa-brands fa-linkedin-in"></i>
+                        </a>
+                        <a href="#" class="text-light fs--22">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                        <a href="#" class="text-light fs--22">
+                            <i class="fa-brands fa-youtube"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bottom--footer py-4">
+            <p class="text-light text-center mb-0">Copyright ©2023 Bubulla. All rights reserved.</p>
+        </div>
+    </footer>
+    <!-- FOOTER -->
+
+    <!-- bootstrap js -->
+    <script src="./assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom js -->
+    <script src="./assets/js/app.js"></script>
+</body>
+
+</html>
